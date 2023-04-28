@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>eQuiz</title>
+     <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <!-- <script type="text/javascript" src="db.json"></script> -->
+    <script defer type="text/javascript" src="src/index.js"></script>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Signup and Login Form</title>
+</head>
+<body>
+	<h1>Signup Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+
+	
+
+
+
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="img"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAns('A')"></div>
+                <div class="choice" id="B" onclick="checkAns('B')"></div>
+                <div class="choice" id="C" onclick="checkAns('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>                                                                                              
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    
+</body>
+</html>

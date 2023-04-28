@@ -1,0 +1,12 @@
+{
+    "questions": [
+    {
+        "question"  : "What is the capital of France?",
+        "imgSrc"  : "img/france.png",
+        "choiceA"  : "Paris",
+        "choiceB"  : "Madrid",
+        "choiceC"  : "Helsinki",
+        "correct"  : "A"
+    }
+]
+}
